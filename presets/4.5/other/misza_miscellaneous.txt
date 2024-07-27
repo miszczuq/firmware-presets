@@ -4,6 +4,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: miscellaneous, beeper, buzzer
 #$ AUTHOR: Misza
 #$ DESCRIPTION: Other options that ussualy dont change beetwen quads

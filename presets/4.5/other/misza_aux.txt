@@ -4,6 +4,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: aux, misza, comando8, comando
 #$ AUTHOR: Misza
 
