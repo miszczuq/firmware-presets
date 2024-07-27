@@ -1,0 +1,43 @@
+#$ TITLE: Misza OSD
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:OSD, misza, 
+#$ AUTHOR: Misza
+
+#$ DESCRIPTION: Misza_osd_preset
+
+#$ INCLUDE: presets/4.4/osd/defaults.txt
+
+set osd_warn_bitmask = 313213
+set osd_link_quality_alarm = 50
+set osd_rssi_dbm_alarm = -98
+set osd_cap_alarm = 450
+set osd_tim1 = 1
+set osd_tim2 = 2
+set osd_rssi_pos = 312
+set osd_link_quality_pos = 2423
+set osd_rssi_dbm_pos = 2391
+set osd_tim_1_pos = 2433
+set osd_tim_2_pos = 139
+set osd_flymode_pos = 2440
+set osd_throttle_pos = 2081
+set osd_vtx_channel_pos = 2453
+set osd_crosshairs_pos = 2253
+set osd_ah_pos = 2126
+set osd_current_pos = 2336
+set osd_mah_drawn_pos = 2369
+set osd_craft_name_pos = 394
+set osd_warnings_pos = 2345
+set osd_avg_cell_voltage_pos = 2401
+set osd_disarmed_pos = 2314
+set osd_esc_rpm_pos = 161
+set osd_core_temp_pos = 280
+set osd_log_status_pos = 2105
+set osd_rate_profile_name_pos = 2445
+set osd_stat_bitmask = 813696742
+set osd_canvas_width = 30
+set osd_canvas_height = 13
