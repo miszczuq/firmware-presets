@@ -4,11 +4,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
-<<<<<<< Updated upstream
-#$ STATUS: EXPERIMENTAL
-=======
 #$ STATUS: COMMUNITY
->>>>>>> Stashed changes
 #$ KEYWORDS: miscellaneous, beeper, buzzer
 #$ AUTHOR: Misza
 #$ DESCRIPTION: Other options that ussualy dont change beetwen quads

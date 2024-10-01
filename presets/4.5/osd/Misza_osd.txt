@@ -14,12 +14,12 @@
 
 # -- Fast Rx Link Options --
 
-#$ OPTION_GROUP BEGIN: Choose your RC link (or apply another preset separately)
-    #$ OPTION BEGIN (UNCHECKED): ELRS_250HZ (Recommended)
+#$ OPTION_GROUP BEGIN: Choose your OSD type preset
+    #$ OPTION BEGIN (UNCHECKED): HD OSD
         #$ INCLUDE: presets/4.5/osd/hd_osd.txt
     #$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): ELRS_500HZ
+    #$ OPTION BEGIN (CHECKED): Analog osd
         #$ INCLUDE: presets/4.5/osd/analog_osd.txt
     #$ OPTION END
 #$ OPTION_GROUP END

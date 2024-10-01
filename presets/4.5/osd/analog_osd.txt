@@ -1,3 +1,15 @@
+#$ TITLE: Misza Analog OSD subdirectory
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:OSD, misza
+#$ AUTHOR: Misza
+
+#$ DESCRIPTION: Misza_osd_analog_preset
+
 set osd_link_quality_alarm = 50
 set osd_warn_bitmask = 313213
 set osd_rssi_dbm_alarm = -98
