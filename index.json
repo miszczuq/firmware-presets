@@ -7131,8 +7131,46 @@
     },
     {
       "fullPath": "presets/4.5/osd/Misza_osd.txt",
-      "hash": "3137e9f5bb0b451af4ae488fa011d33d3d8229f3db6b0bd5681a36dbedb2e5b6",
+      "hash": "2ba7dd1cde78e35067b9061b4fc31c02e07b846789713bbb6f197ffe8dc520cf",
       "title": "Misza OSD",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD",
+        "misza"
+      ],
+      "author": "Misza",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/analog_osd.txt",
+      "hash": "36cef96e9d16b3edae5915c69aa8ecd8d63f3709a60b1b4141f0b7e9b9dd4bb8",
+      "title": "Misza Analog OSD subdirectory",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD",
+        "misza"
+      ],
+      "author": "Misza",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/hd_osd.txt",
+      "hash": "ec1508a402382f5559dfc0e94104a7af528f909e4b37308fe425add115d1726d",
+      "title": "Misza HD OSD subdirectory",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -7170,39 +7208,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/other/Tehllama_5in_Race_Multivoltage_Spec.txt",
-      "hash": "8811417f43f50a28b0cf1e3442fe2aa41d4203a3a661c729866d85ea427527db",
-      "title": "Tehllama 5\" Race Multivoltage Spec",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "533",
-        "Freedom",
-        "FreedomSpec",
-        "Tune",
-        "Spec",
-        "Race",
-        "Llama",
-        "MultiVoltage",
-        "Texas",
-        "BMS",
-        "3S",
-        "5in",
-        "AutoSelect",
-        "MM",
-        "Omni"
-      ],
-      "author": "Daniel Appel / Tehllama",
-      "force_options_review": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.5/other/misza_aux.txt",
-      "hash": "5fd7a984addf8f5c6da2e010159cc737d71e9103411223a7dc3bb0aa1f877a02",
-      "title": "Misza AUX Comando8",
+      "hash": "0bb8fd011325ce13b4f4ec7b7c32e954c16470fe2eee94b72db9c00a4fd2ee79",
+      "title": "Misza aux - TX16",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -7210,7 +7218,7 @@
         "4.5"
       ],
       "category": "OTHER",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "aux",
         "misza",
@@ -7222,7 +7230,7 @@
     },
     {
       "fullPath": "presets/4.5/other/misza_miscellaneous.txt",
-      "hash": "ab66f09d0dc46d6a543c6c9d557acb0818a87976a1f6bf4373cbe1a8653ee700",
+      "hash": "f988886d60257e2248a2549caa90df9d5418107eea33e196d676b81f497900f0",
       "title": "Misza miscellaneous preset",
       "firmware_version": [
         "4.2",
@@ -7231,7 +7239,7 @@
         "4.5"
       ],
       "category": "OTHER",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "miscellaneous",
         "beeper",
@@ -7241,31 +7249,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/rates/AOS_rates.txt",
-      "hash": "bcbe2997c5c9d9b648cf4bac0ff7f5abe360c5dbbe1da607a567912398587219",
-      "title": "AOS Rates",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "youtube",
-        "aos",
-        "freestyle",
-        "cinematic",
-        "chris",
-        "rosser"
-      ],
-      "author": "Chris Rosser",
-      "priority": 10000
-    },
-    {
       "fullPath": "presets/4.5/rates/MIsza_rates.txt",
-      "hash": "2561ced16825b90cf4c2c7e94e1ddef7dd17fe6541d5cbe8c97aecef07c0c054",
-      "title": "AOS Rates",
+      "hash": "8488aa7ae977b3f1b8bc2672a32aff42d9e003d4c0b01cbc31aa4422240efd39",
+      "title": "Misza Rates",
       "firmware_version": [
         "4.2",
         "4.3",
