@@ -4,13 +4,17 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
+<<<<<<< Updated upstream
 #$ STATUS: EXPERIMENTAL
+=======
+#$ STATUS: COMMUNITY
+>>>>>>> Stashed changes
 #$ KEYWORDS: miscellaneous, beeper, buzzer
 #$ AUTHOR: Misza
 #$ DESCRIPTION: Other options that ussualy dont change beetwen quads
 
 #$ OPTION_GROUP BEGIN: I want:
-    #$ OPTION BEGIN (UNCHECKED): Buzzer
+    #$ OPTION BEGIN (CHECKED): Beeping config
 		beeper -DISARMING
 		beeper -ARMING_GPS_FIX
 		beeper -BAT_CRIT_LOW
@@ -30,9 +34,15 @@
 		beacon RX_LOST
 		beacon RX_SET
 	#$ OPTION END
-	#$ OPTION BEGIN (UNCHECKED): Battery warnings
+	#$ OPTION BEGIN (CHECKED): Battery warnings - normal 3.5V
 		set vbat_max_cell_voltage = 450
 		set vbat_warning_cell_voltage = 350
 		set vbat_min_cell_voltage = 340
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Battery warnings - tinywhoop 3.1V
+		set vbat_max_cell_voltage = 450
+		set vbat_warning_cell_voltage = 320
+		set vbat_min_cell_voltage = 310
 	#$ OPTION END
 #$ OPTION_GROUP END

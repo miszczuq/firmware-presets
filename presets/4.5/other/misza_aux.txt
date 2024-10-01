@@ -1,25 +1,34 @@
-#$ TITLE: Misza AUX Comando8
+#$ TITLE: Misza aux - TX16
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
+<<<<<<< Updated upstream
 #$ STATUS: EXPERIMENTAL
+=======
+#$ STATUS: COMMUNITY
+>>>>>>> Stashed changes
 #$ KEYWORDS: aux, misza, comando8, comando
 #$ AUTHOR: Misza
 
-#$ DESCRIPTION: Misza AUX preset for Comando 8 radio
+#$ DESCRIPTION: Misza AUX preset for Radiomaster TX16 radio
 
 # aux
 aux 0 0 3 1700 2100 0 0
 aux 1 1 1 900 1275 0 0
-aux 2 13 0 1700 2100 1 0
-aux 3 13 2 1300 1700 1 0
-aux 4 28 1 1700 2100 0 0
-aux 5 35 0 1700 2100 1 0
-aux 6 35 2 1700 2100 1 0
-aux 7 49 0 1700 2100 1 0
-aux 8 49 2 900 1300 1 0
+aux 2 46 4 1700 2100 0 0
+aux 3 13 0 1700 2100 1 0
+aux 4 13 2 1300 1700 1 0
+aux 5 15 9 900 1300 0 0
+aux 6 28 1 1700 2100 0 0
+aux 7 28 1 900 1300 0 0
+aux 8 35 0 1700 2100 1 0
+aux 9 35 2 1700 2100 1 0
+aux 10 49 0 1700 2100 1 0
+aux 11 49 2 900 1300 1 0
 
 # adjrange
 adjrange 0 0 2 900 2100 12 2 0 0
+adjrange 1 0 5 900 2100 29 5 0 0
+adjrange 2 0 8 900 2100 30 8 0 0
