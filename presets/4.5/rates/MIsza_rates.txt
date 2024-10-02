@@ -111,7 +111,7 @@
         set pitch_srate = 40
         set yaw_srate = 40
     #$ OPTION END
-    #$ OPTION BEGIN (CHECKED): Linear
+    #$ OPTION BEGIN (CHECKED): Linear (Whooping in Angle options)
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = Linear
@@ -123,19 +123,17 @@
         set roll_srate = 60
         set pitch_srate = 60
         set yaw_srate = 70
+        
+        set angle_p_gain = 90
+        set angle_limit = 70
     #$ OPTION END
     
-    # -- ADDER: Whoop Yaw, Angle & Horizon Settings --
-    #$ OPTION BEGIN (UNCHECKED): Whooping in Angle options
+    #$ OPTION BEGIN (UNCHECKED): Set throttle expo for tinywhoop
         rateprofile 2
         set thr_mid = 45
         set thr_expo = 50
         set yaw_rc_rate = 10
         set yaw_expo = 25
         set yaw_srate = 60
-        set angle_level_strength = 70
-        set horizon_level_strength = 70
-        set horizon_transition = 100
-        set level_limit = 85
     #$ OPTION END
 #$ OPTION_GROUP END
