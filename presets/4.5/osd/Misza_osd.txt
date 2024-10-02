@@ -15,11 +15,19 @@
 # -- Fast Rx Link Options --
 
 #$ OPTION_GROUP BEGIN: Choose your OSD type preset
-    #$ OPTION BEGIN (UNCHECKED): HD OSD
-        #$ INCLUDE: presets/4.5/osd/hd_osd.txt
+    #$ OPTION BEGIN (UNCHECKED): HD OSD (16:9)
+        #$ INCLUDE: presets/4.5/osd/hd_osd_16_9.txt
     #$ OPTION END
 
-    #$ OPTION BEGIN (CHECKED): Analog osd
-        #$ INCLUDE: presets/4.5/osd/analog_osd.txt
+    #$ OPTION BEGIN (UNCHECKED): HD OSD (4:3)
+        #$ INCLUDE: presets/4.5/osd/hd_osd_4_3.txt
+    #$ OPTION END
+
+    #$ OPTION BEGIN (CHECKED): Analog osd (PAL)
+        #$ INCLUDE: presets/4.5/osd/analog_osd_pal.txt
+    #$ OPTION END
+
+    #$ OPTION BEGIN (CHECKED): Analog osd (NTSC)
+        #$ INCLUDE: presets/4.5/osd/analog_osd_ntsc.txt
     #$ OPTION END
 #$ OPTION_GROUP END

@@ -1,4 +1,4 @@
-#$ TITLE: Misza HD OSD subdirectory
+#$ TITLE: Misza HD 16:9 OSD subdirectory
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
@@ -127,3 +127,4 @@ set osd_aux_symbol = 65
 set osd_canvas_width = 53
 set osd_canvas_height = 20
 set osd_craftname_msgs = OFF
+set vcd_video_system = HD

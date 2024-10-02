@@ -1,4 +1,4 @@
-#$ TITLE: Misza Analog OSD subdirectory
+#$ TITLE: Misza Analog NTSC OSD subdirectory
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
@@ -10,8 +10,8 @@
 
 #$ DESCRIPTION: Misza_osd_analog_preset
 
-set osd_link_quality_alarm = 50
 set osd_warn_bitmask = 313213
+set osd_link_quality_alarm = 50
 set osd_rssi_dbm_alarm = -98
 set osd_cap_alarm = 450
 set osd_tim1 = 1
@@ -39,3 +39,4 @@ set osd_rate_profile_name_pos = 2445
 set osd_stat_bitmask = 813696742
 set osd_canvas_width = 30
 set osd_canvas_height = 13
+set vcd_video_system = NTSC

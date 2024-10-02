@@ -5,10 +5,11 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: aux, misza
+#$ KEYWORDS: basic, default, configuration, aux, misza, miscellaneous, beeper, buzzer
 #$ AUTHOR: Misza
 
-#$ DESCRIPTION: Misza basic configuration. Pilot name, camera angle, telemetry etc.
+#$ DESCRIPTION: Basic configuration to setup on every quad. Pilot name, camera angle, telemetry etc.
+
 set fpv_mix_degrees = 0
 set small_angle = 180
 set pilot_name = Misza
@@ -18,6 +19,40 @@ feature TELEMETRY
 feature LED_STRIP
 feature OSD
 set report_cell_voltage = ON
+
+#$ OPTION_GROUP BEGIN: Miscellaneous (optional):
+    #$ OPTION BEGIN (CHECKED): Beeping config
+		beeper -DISARMING
+		beeper -ARMING_GPS_FIX
+		beeper -BAT_CRIT_LOW
+		beeper -BAT_LOW
+		beeper -GPS_STATUS
+		beeper -ACC_CALIBRATION
+		beeper -ACC_CALIBRATION_FAIL
+		beeper -READY_BEEP
+		beeper -DISARM_REPEAT
+		beeper -ARMED
+		beeper -ON_USB
+		beeper -BLACKBOX_ERASE
+		beeper -CAM_CONNECTION_OPEN
+		beeper -CAM_CONNECTION_CLOSE
+		beeper -RC_SMOOTHING_INIT_FAIL
+
+		beacon RX_LOST
+		beacon RX_SET
+	#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): Battery warnings - normal 3.5V
+		set vbat_max_cell_voltage = 450
+		set vbat_warning_cell_voltage = 350
+		set vbat_min_cell_voltage = 340
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Battery warnings - tinywhoop 3.1V
+		set vbat_max_cell_voltage = 450
+		set vbat_warning_cell_voltage = 320
+		set vbat_min_cell_voltage = 310
+	#$ OPTION END
+#$ OPTION_GROUP END
 
 #$ OPTION BEGIN (CHECKED): Default ExpressLRS 250Hz
 	# NOTE TO AUTHORS: Always include this Preset in any RC Preset
