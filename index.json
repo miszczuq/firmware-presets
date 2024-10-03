@@ -7169,7 +7169,7 @@
     },
     {
       "fullPath": "presets/4.5/osd/hd_osd.txt",
-      "hash": "ec1508a402382f5559dfc0e94104a7af528f909e4b37308fe425add115d1726d",
+      "hash": "343aa1bc2fdbdef5d2bd28c71b24ea3e731b21a30c1a1cb3c440b514aee2a489",
       "title": "Misza HD OSD subdirectory",
       "firmware_version": [
         "4.2",
@@ -7209,7 +7209,7 @@
     },
     {
       "fullPath": "presets/4.5/other/misza_aux.txt",
-      "hash": "0bb8fd011325ce13b4f4ec7b7c32e954c16470fe2eee94b72db9c00a4fd2ee79",
+      "hash": "6722743f859443be75c952805cc01258bb876530ba82caf1956b717b3c3abcde",
       "title": "Misza aux - TX16",
       "firmware_version": [
         "4.2",
@@ -7224,6 +7224,25 @@
         "misza",
         "comando8",
         "comando"
+      ],
+      "author": "Misza",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/misza_basic_config.txt",
+      "hash": "4583c66bbd748a87dd1549ad2e2ef55e221c33374bf22d95c73e93ace72b2073",
+      "title": "Misza basic configuration",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aux",
+        "misza"
       ],
       "author": "Misza",
       "priority": 0
@@ -7250,7 +7269,7 @@
     },
     {
       "fullPath": "presets/4.5/rates/MIsza_rates.txt",
-      "hash": "8488aa7ae977b3f1b8bc2672a32aff42d9e003d4c0b01cbc31aa4422240efd39",
+      "hash": "746522529766832325ed50248096a3b2352916689c7b0bf135ac75c4e4fd450c",
       "title": "Misza Rates",
       "firmware_version": [
         "4.2",
