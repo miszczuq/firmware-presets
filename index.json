@@ -321,6 +321,7 @@
       "colour change",
       "comando",
       "comando8",
+      "configuration",
       "Configure",
       "control",
       "Crossfire",
@@ -7131,7 +7132,7 @@
     },
     {
       "fullPath": "presets/4.5/osd/Misza_osd.txt",
-      "hash": "2ba7dd1cde78e35067b9061b4fc31c02e07b846789713bbb6f197ffe8dc520cf",
+      "hash": "68f8cc8b05161adc1eb62c996429999b546d4d70c331d5f999aafe08538b2c15",
       "title": "Misza OSD",
       "firmware_version": [
         "4.2",
@@ -7149,9 +7150,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/osd/analog_osd.txt",
-      "hash": "36cef96e9d16b3edae5915c69aa8ecd8d63f3709a60b1b4141f0b7e9b9dd4bb8",
-      "title": "Misza Analog OSD subdirectory",
+      "fullPath": "presets/4.5/osd/analog_osd_ntsc.txt",
+      "hash": "0415aac061241a2abeb74a7276e399e7b38f109b1e4cf0e72209c2fde4d170ab",
+      "title": "Misza Analog NTSC OSD subdirectory",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -7168,9 +7169,47 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/osd/hd_osd.txt",
-      "hash": "343aa1bc2fdbdef5d2bd28c71b24ea3e731b21a30c1a1cb3c440b514aee2a489",
-      "title": "Misza HD OSD subdirectory",
+      "fullPath": "presets/4.5/osd/analog_osd_pal.txt",
+      "hash": "bb6e092e29a820bd0eb5aa3b9d92c70c0c236cb5bf53a56d70b60b45db0bc864",
+      "title": "Misza Analog PAL OSD subdirectory",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD",
+        "misza"
+      ],
+      "author": "Misza",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/hd_osd_16_9.txt",
+      "hash": "48c56d3909d84b2c06a14b38f7191fe4cdb8c3020968b968fc4fea55eaca376b",
+      "title": "Misza HD 16:9 OSD subdirectory",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD",
+        "misza"
+      ],
+      "author": "Misza",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/hd_osd_4_3.txt",
+      "hash": "eaa63898879fcda1bad5a067aeeb01b812ed07c0ab87771b0b20276b221eb802",
+      "title": "Misza HD 4:3 OSD subdirectory",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -7230,7 +7269,7 @@
     },
     {
       "fullPath": "presets/4.5/other/misza_basic_config.txt",
-      "hash": "4583c66bbd748a87dd1549ad2e2ef55e221c33374bf22d95c73e93ace72b2073",
+      "hash": "fdebc4337f571896734c63eeb67907e4fde52a2da609f8fb7fa318ab42e323d2",
       "title": "Misza basic configuration",
       "firmware_version": [
         "4.2",
@@ -7241,25 +7280,11 @@
       "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
+        "basic",
+        "default",
+        "configuration",
         "aux",
-        "misza"
-      ],
-      "author": "Misza",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/other/misza_miscellaneous.txt",
-      "hash": "f988886d60257e2248a2549caa90df9d5418107eea33e196d676b81f497900f0",
-      "title": "Misza miscellaneous preset",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
+        "misza",
         "miscellaneous",
         "beeper",
         "buzzer"
