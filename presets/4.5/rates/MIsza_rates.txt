@@ -217,7 +217,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (CHECKED): P2 - Race533_Asymetric aka Werdna - 533 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P2 - Race533_Asymetric aka Werdna - 533 deg/s
         rateprofile 1
         set rateprofile_name = 533_ASYM
         set rates_type = ACTUAL
@@ -235,7 +235,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 199
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P2 - Race533 - 533 deg/s
+    #$ OPTION BEGIN (CHECKED): P2 - Race533 - 533 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set rateprofile_name = 533
@@ -365,7 +365,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (CHECKED): P3 - Race533_Asymetric aka Werdna - 533 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P3 - Race533_Asymetric aka Werdna - 533 deg/s
         rateprofile 2
         set rateprofile_name = 533_ASYM
         set rates_type = ACTUAL
@@ -401,7 +401,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P3 - Race633 - 633 deg/s
+    #$ OPTION BEGIN (CHECKED): P3 - Race633 - 633 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = 633
