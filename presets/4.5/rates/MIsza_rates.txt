@@ -38,7 +38,7 @@
     #$ OPTION END
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN (EXCLUSIVE): Choose rates for profile 1
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose rates for profile 1
     #$ OPTION BEGIN (UNCHECKED): P1 - Slow 350 deg/s
         rateprofile 0
         set rates_type = ACTUAL
@@ -186,7 +186,7 @@
     #$ OPTION END
 #$ OPTION_GROUP END   
 
-#$ OPTION_GROUP BEGIN (EXCLUSIVE): Choose rates for profile 2
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose rates for profile 2
     #$ OPTION BEGIN (UNCHECKED): P2 - Slow 350 deg/s
         rateprofile 1
         set rates_type = ACTUAL
@@ -334,7 +334,7 @@
     #$ OPTION END
 #$ OPTION_GROUP END   
 
-#$ OPTION_GROUP BEGIN (EXCLUSIVE): Choose rates for profile 3
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose rates for profile 3
     #$ OPTION BEGIN (UNCHECKED): P3 - Slow 350 deg/s
         rateprofile 2
         set rates_type = ACTUAL
