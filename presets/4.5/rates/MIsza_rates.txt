@@ -38,7 +38,7 @@
     #$ OPTION END
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN (EXCLUSIVE): Choose rates for profile 1
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose rates for profile 1
     #$ OPTION BEGIN (UNCHECKED): P1 - Slow 350 deg/s
         rateprofile 0
         set rates_type = ACTUAL
@@ -187,7 +187,7 @@
 #$ OPTION_GROUP END   
 
 #$ OPTION_GROUP BEGIN (EXCLUSIVE): Choose rates for profile 2
-#$ OPTION BEGIN (UNCHECKED): P1 - Slow 350 deg/s
+#$ OPTION BEGIN (UNCHECKED): P2 - Slow 350 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set rateprofile_name = Slow
@@ -200,7 +200,7 @@
         set pitch_srate = 35
         set yaw_srate = 35
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Cinematic 400 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P2 - Cinematic 400 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set quickrates_rc_expo = OFF
@@ -217,7 +217,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (CHECKED): P1 - Race533_Asymetric aka Werdna - 533 deg/s
+    #$ OPTION BEGIN (CHECKED): P2 - Race533_Asymetric aka Werdna - 533 deg/s
         rateprofile 1
         set rateprofile_name = 533_ASYM
         set rates_type = ACTUAL
@@ -235,7 +235,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 199
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Race533 - 533 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P2 - Race533 - 533 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set rateprofile_name = 533
@@ -253,7 +253,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Race633 - 633 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P2 - Race633 - 633 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set rateprofile_name = 633
@@ -271,7 +271,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Normal, more sensitive 600 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P2 - Normal, more sensitive 600 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set rateprofile_name = Normal
@@ -285,7 +285,7 @@
         set pitch_srate = 70
         set yaw_srate = 70
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Freestyle 700 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P2 - Freestyle 700 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set rateprofile_name = FS700
@@ -303,7 +303,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Tricks 900 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P2 - Tricks 900 deg/s
         rateprofile 1
         set rates_type = ACTUAL
         set rateprofile_name = Tricks
@@ -317,7 +317,7 @@
         set pitch_srate = 90
         set yaw_srate = 90
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Linear for angle mode
+    #$ OPTION BEGIN (UNCHECKED): P2 - Linear for angle mode
         rateprofile 1
         set rates_type = ACTUAL
         set quickrates_rc_expo = OFF
@@ -335,7 +335,7 @@
 #$ OPTION_GROUP END   
 
 #$ OPTION_GROUP BEGIN (EXCLUSIVE): Choose rates for profile 3
-#$ OPTION BEGIN (UNCHECKED): P1 - Slow 350 deg/s
+#$ OPTION BEGIN (UNCHECKED): P3 - Slow 350 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = Slow
@@ -348,7 +348,7 @@
         set pitch_srate = 35
         set yaw_srate = 35
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Cinematic 400 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P3 - Cinematic 400 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set quickrates_rc_expo = OFF
@@ -365,7 +365,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (CHECKED): P1 - Race533_Asymetric aka Werdna - 533 deg/s
+    #$ OPTION BEGIN (CHECKED): P3 - Race533_Asymetric aka Werdna - 533 deg/s
         rateprofile 2
         set rateprofile_name = 533_ASYM
         set rates_type = ACTUAL
@@ -383,7 +383,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 199
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Race533 - 533 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P3 - Race533 - 533 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = 533
@@ -401,7 +401,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Race633 - 633 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P3 - Race633 - 633 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = 633
@@ -419,7 +419,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Normal, more sensitive 600 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P3 - Normal, more sensitive 600 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = Normal
@@ -433,7 +433,7 @@
         set pitch_srate = 70
         set yaw_srate = 70
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Freestyle 700 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P3 - Freestyle 700 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = FS700
@@ -451,7 +451,7 @@
         set pitch_rate_limit = 1998
         set yaw_rate_limit = 1998
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Tricks 900 deg/s
+    #$ OPTION BEGIN (UNCHECKED): P3 - Tricks 900 deg/s
         rateprofile 2
         set rates_type = ACTUAL
         set rateprofile_name = Tricks
@@ -465,7 +465,7 @@
         set pitch_srate = 90
         set yaw_srate = 90
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): P1 - Linear for angle mode
+    #$ OPTION BEGIN (UNCHECKED): P3 - Linear for angle mode
         rateprofile 2
         set rates_type = ACTUAL
         set quickrates_rc_expo = OFF
