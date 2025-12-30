@@ -1,0 +1,28 @@
+#$ TITLE: Misza OSD
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:OSD, misza, 
+#$ AUTHOR: Misza
+
+#$ DESCRIPTION: Misza_osd_preset
+
+#$ INCLUDE: presets/2025.12/osd/defaults.txt
+
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose your OSD type preset
+    #$ OPTION BEGIN (UNCHECKED): HD OSD (16:9)
+        #$ INCLUDE: presets/2025.12/osd/hd_osd_16_9.txt
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): HD OSD (4:3)
+        #$ INCLUDE: presets/2025.12/osd/hd_osd_4_3.txt
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): Analog osd (PAL)
+        #$ INCLUDE: presets/2025.12/osd/analog_osd_pal.txt
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): Analog osd (NTSC)
+        #$ INCLUDE: presets/2025.12/osd/analog_osd_ntsc.txt
+    #$ OPTION END
+#$ OPTION_GROUP END

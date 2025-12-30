@@ -1,0 +1,13 @@
+#$ TITLE: Hdzero VTX 6pos
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: hdzero, vtx, misza
+#$ AUTHOR: Misza
+
+#$ DESCRIPTION: Settings vtx powers on 6pos
+
+# vtx
+vtx 0 7 0 0 3 900 1100
+vtx 1 7 0 0 2 1300 1700
+vtx 2 7 0 0 1 1900 2100
