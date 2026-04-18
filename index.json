@@ -183,7 +183,7 @@
     },
     {
       "fullPath": "presets/2025.12/osd/analog_osd_pal.txt",
-      "hash": "4f35a58f8430074fa4cf9dff1622eee0fe9d5b0b80a27373f3512d22e454d01f",
+      "hash": "56257d4697ab022eaaad36c6c83b8a47ef15c84ce6e11c8290a39cef75b1db91",
       "title": "Misza Analog PAL OSD subdirectory",
       "firmware_version": [
         "2025.12"
@@ -284,7 +284,7 @@
     },
     {
       "fullPath": "presets/2025.12/other/misza_aux.txt",
-      "hash": "bc1a8900a4cff7535c9008525d623bda9de4b22d2c6dae26002550b505ff2664",
+      "hash": "8288ee6f56ba6aa91fdf5455b0e7398b6a7633a8abce1bffe1e8d89ec43c6a9c",
       "title": "Misza aux - TX16",
       "firmware_version": [
         "2025.12"
