@@ -5,14 +5,28 @@
 #$ KEYWORDS: aux, misza
 #$ AUTHOR: Misza
 
-#$ DESCRIPTION: Misza AUX preset for Radiomaster TX16 radio
+#$ DESCRIPTION: Misza AUX preset for Radiomaster TX16 mk3 radio
 
-# aux
-aux 0 0 0 1700 2100 0 0
-aux 1 1 1 900 1275 0 0
-aux 2 13 1 1950 2025 0 0
-aux 3 13 1 1550 1600 0 0
-aux 4 13 1 1125 1200 0 0
-aux 5 28 1 1700 2100 0 0
-aux 6 35 5 1700 2100 1 0
-aux 7 40 3 1700 2100 0 0
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Choose aux profile
+    #$ OPTION BEGIN (CHECKED): Standard
+        rateprofile 0
+		aux 0 0 0 1700 2100 0 0
+		aux 1 1 1 1725 2100 0 0
+		aux 2 13 1 1950 2025 0 0
+		aux 3 13 1 1125 1200 0 0
+		aux 4 28 5 900 1300 0 0
+		aux 5 35 5 1700 2100 1 0
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Standard + GPS
+        rateprofile 0
+		aux 0 0 0 1700 2100 0 0
+		aux 1 1 1 1725 2100 0 0
+		aux 2 3 4 1700 2100 0 0
+		aux 3 11 4 1300 2100 0 0
+		aux 4 46 6 1700 2100 0 0
+		aux 5 13 1 1950 2025 0 0
+		aux 6 13 1 1125 1200 0 0
+		aux 7 28 2 900 1300 0 0
+		aux 8 35 5 1700 2100 1 0
+    #$ OPTION END
+#$ OPTION_GROUP END   
